@@ -12,10 +12,10 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li><a href="${basePath}/">首页</a></li>
-                <li><a href="${basePath}/article/list">文章</a></li>
-                <li><a href="${basePath}/weibo/list">${WEIBO_ALIAS}</a></li>
+ <!--            <li><a href="${basePath}/article/list">文章</a></li>            -->
+ <!--             <li><a href="${basePath}/weibo/list">${WEIBO_ALIAS}</a></li>  -->
                 <li><a href="${basePath}/group/">${GROUP_ALIAS}</a></li>
-                <li><a href="${basePath}/action/list">动态</a></li>
+ <!--             <li><a href="${basePath}/action/list">动态</a></li>            -->
             </ul>
             <ul class="nav navbar-top-links navbar-right">
                 <div class="nav navbar-nav navbar-nav-right">
@@ -32,12 +32,7 @@
                         <ul class="dropdown-menu">
                             <li><a href="${basePath}/member/">个人中心</a></li>
                             <li><a href="${basePath}/member/message">私信
-                            ${(unReadMessageNum > 0)?string("("+unReadMessageNum+")","")}
-                            </a></li>
-                            <li><a href="${basePath}/member/editInfo">设置</a></li>
-                            <#if loginUser?? && loginUser.isAdmin &gt; 0>
-                                <li><a href="${managePath}/" target="_blank">管理</a></li>
-                            </#if>
+  
                             <li class="divider"></li>
                             <li><a href="${basePath}/member/logout">退出</a></li>
                         </ul>

@@ -116,13 +116,6 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="${basePath}/u/${loginUser.id}/home/article">
-                                    <div class="feed-element">
-                                        <div class="media-body">
-                                            文章
-                                        </div>
-                                    </div>
-                                </a>
                                 <a href="${basePath}/u/${loginUser.id}/home/groupTopic">
                                     <div class="feed-element">
                                         <div class="media-body">
@@ -130,13 +123,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="${basePath}/u/${loginUser.id}/home/weibo">
-                                    <div class="feed-element">
-                                        <div class="media-body">
-                                            微博
-                                        </div>
-                                    </div>
-                                </a>
+      
                                 <a href="${basePath}/u/${loginUser.id}/home/group">
                                     <div class="feed-element">
                                         <div class="media-body">
